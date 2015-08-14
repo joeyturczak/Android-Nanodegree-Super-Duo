@@ -3,22 +3,42 @@ package barqsoft.footballscores;
 /**
  * Created by yehya khaled on 3/3/2015.
  */
-public class Utilies
+public class Utilites
 {
-    public static final int SERIE_A = 357;
-    public static final int PREMIER_LEGAUE = 354;
+//    public static final int SERIE_A = 357;
+//    public static final int PREMIER_LEGAUE = 354;
     public static final int CHAMPIONS_LEAGUE = 362;
-    public static final int PRIMERA_DIVISION = 358;
-    public static final int BUNDESLIGA = 351;
+//    public static final int PRIMERA_DIVISION = 358;
+//    public static final int BUNDESLIGA = 351;
+    public static final int BUNDESLIGA_1 = 394;
+    public static final int BUNDESLIGA_2 = 395;
+    public static final int LIGUE_1 = 396;
+    public static final int LIGUE_2 = 397;
+    public static final int PREMIER_LEAGUE = 398;
+    public static final int PRIMERA_DIVISION = 399;
+    public static final int SEGUNDA_DIVISION = 400;
+    public static final int SERIA_A = 401;
+    public static final int PRIMEIRA_LIGA = 402;
+    public static final int BUNDESLIGA_3 = 403;
+    public static final int EREDIVISIE = 404;
+
     public static String getLeague(int league_num)
     {
         switch (league_num)
         {
-            case SERIE_A : return "Seria A";
-            case PREMIER_LEGAUE : return "Premier League";
             case CHAMPIONS_LEAGUE : return "UEFA Champions League";
+
+            case BUNDESLIGA_1 : return "1. Bundesliga";
+            case BUNDESLIGA_2 : return "2. Bundesliga";
+            case LIGUE_1 : return "Ligue 1";
+            case LIGUE_2 : return "Ligue 2";
+            case PREMIER_LEAGUE : return "Premier League";
             case PRIMERA_DIVISION : return "Primera Division";
-            case BUNDESLIGA : return "Bundesliga";
+            case SEGUNDA_DIVISION : return "Segunda Division";
+            case SERIA_A : return "Serie A";
+            case PRIMEIRA_LIGA : return "Primeira Liga";
+            case BUNDESLIGA_3 : return "3. Bundesliga";
+            case EREDIVISIE : return "Eredivisie";
             default: return "Not known League Please report";
         }
     }
