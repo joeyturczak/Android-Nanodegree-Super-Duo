@@ -44,4 +44,25 @@
     <string name="widget_title">Today\'s Football Matches</string>
 
     <string name="football_scores_hashtag" translatable="false">#Football_Scores</string>
+
+    <string name="league_champions_league">UEFA Champions League</string>
+    <string name="league_bundesliga_1">1. Bundesliga</string>
+    <string name="league_bundesliga_2">2. Bundesliga</string>
+    <string name="league_ligue_1">Ligue 1</string>
+    <string name="league_ligue_2">Ligue 2</string>
+    <string name="league_premier_league">Premier League</string>
+    <string name="league_primera_division">Primera Division</string>
+    <string name="league_segunda_division">Segunda Division</string>
+    <string name="league_serie_a">Serie A</string>
+    <string name="league_primeira_liga">Primeira Liga</string>
+    <string name="league_bundesliga_3">3. Bundesliga</string>
+    <string name="league_eredivisie">Eredivisie</string>
+    <string name="league_not_known">Not known League Please report</string>
+
+    <string name="match_day_6">Group Stages, Matchday : 6</string>
+    <string name="match_day_knockout_round">First Knockout round</string>
+    <string name="match_day_quarterfinal">QuarterFinal</string>
+    <string name="match_day_semifinal">SemiFinal</string>
+    <string name="match_day_final">Final</string>
+    <string name="match_day">"Matchday : "</string>
 </resources>
