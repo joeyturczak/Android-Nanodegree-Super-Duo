@@ -21,6 +21,7 @@ import java.net.URL;
 
 import it.jaschke.alexandria.MainActivity;
 import it.jaschke.alexandria.R;
+import it.jaschke.alexandria.Utility;
 import it.jaschke.alexandria.data.AlexandriaContract;
 
 
@@ -90,6 +91,10 @@ public class BookService extends IntentService {
         }
 
         bookEntry.close();
+
+        if(!Utility.isNetworkAvailable(getApplicationContext())) {
+            return;
+        }
 
         HttpURLConnection urlConnection = null;
         BufferedReader reader = null;
